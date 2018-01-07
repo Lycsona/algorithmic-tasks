@@ -17,7 +17,7 @@ class Test
         $linkedList->add(3);
         $linkedList->add(4);
 
-        $linkedList->remove(3);
+        $linkedList->reverseLinkedList();
         var_dump($linkedList);
     }
 }

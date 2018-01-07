@@ -63,4 +63,23 @@ class LinkedList
             $currentRoot = $currentRoot->getNext();
         }
     }
+
+    public function reverseLinkedList()
+    {
+        $prevNode = null;
+        $currentRoot = $this->root;
+
+        while ($currentRoot) {
+
+            $tmp = $currentRoot->getNext();
+
+            $currentRoot->setNext($prevNode);
+
+            $prevNode = $currentRoot;
+
+            $this->root = $currentRoot;
+
+            $currentRoot = $tmp;
+        }
+    }
 }
