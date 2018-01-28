@@ -10,7 +10,7 @@ the elements at indexes 1 and 3 have value 3,
 the elements at indexes 4 and 6 have value 9,
 the element at index 5 has value 7 and is unpaired.
 
-_**Write a function that, given an array A consisting of N integers fulfilling the above conditions, returns the value of the unpaired element._**
+**Write a function that, given an array A consisting of N integers fulfilling the above conditions, returns the value of the unpaired element.**
 
 For example, given array A such that:
 
