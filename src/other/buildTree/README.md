@@ -1,0 +1,6 @@
+**Output should be:**
+
+    `  *
+      *  *
+     *    *`
+ 
