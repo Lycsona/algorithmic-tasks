@@ -1,6 +1,6 @@
 <?php
 
-function drawTree($countOfLines)
+function drawChristmasTree($countOfLines)
 {
     $spaces = function ($numberOfSpaces) {
         return str_repeat('&nbsp', $numberOfSpaces);
@@ -18,4 +18,4 @@ function drawTree($countOfLines)
     }
 }
 
-drawPoint(10);
+drawChristmasTree(10);
