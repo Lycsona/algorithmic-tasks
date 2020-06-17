@@ -11,8 +11,8 @@ function drawChristmasTree($countOfLines)
             $spacesBefore = $spaces($countOfLines + $i);
             $row = $spacesBefore . '*';
         } else {
-            $spacesBefore = $spaces($countOfLines - $i + 2);
-            $spacesBetween = $spaces($i + $i - 3);
+            $spacesBefore = $spaces($countOfLines - $i + 1);
+            $spacesBetween = $spaces($i + $i - 1);
             $row = $spacesBefore . '*' . $spacesBetween . '*';
         }
         var_dump($row);
